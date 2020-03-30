@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [DemoQA]">
+  <listeners>
+    <listener class-name="com.crm.qa.lisener.Listener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Signup(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.crm.qa.test.SignUpTest">
+        <methods>
+          <include name="initialization"/>
+          <include name="testSignup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.test.SignUpTest -->
+    </classes>
+  </test> <!-- Signup(failed) -->
+</suite> <!-- Failed suite [DemoQA] -->

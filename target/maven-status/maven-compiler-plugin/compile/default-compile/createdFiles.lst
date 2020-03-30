@@ -1,0 +1,9 @@
+com\crm\qa\util\monthConvert.class
+com\crm\qa\base\BaseTest.class
+com\crm\qa\pages\RegisterDemo.class
+com\crm\qa\util\ReadUtil.class
+com\crm\qa\util\XlUtils.class
+com\crm\qa\lisener\Listener.class
+com\crm\qa\pages\SignUpPage.class
+com\crm\qa\pages\LoginPage.class
+com\crm\qa\util\CaptureScreenShot.class
